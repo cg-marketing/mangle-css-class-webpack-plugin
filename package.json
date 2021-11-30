@@ -1,5 +1,5 @@
 {
-  "name": "mangle-css-class-webpack-plugin",
+  "name": "@cg-marketing/mangle-css-class-webpack-plugin",
   "version": "5.0.4",
   "license": "MIT",
   "description": "Minifies and obfuscates the class names in your existing JavaScript, CSS, and HTML without any modern css modules.",
@@ -24,13 +24,21 @@
     "test": "jasmine",
     "release": "standard-version"
   },
-  "bugs": "https://github.com/sndyuk/mangle-css-class-webpack-plugin/issues",
-  "homepage": "https://github.com/sndyuk/mangle-css-class-webpack-plugin",
-  "repository": "https://github.com/sndyuk/mangle-css-class-webpack-plugin.git",
+  "bugs": {
+    "url": "https://github.com/cg-marketing/mangle-css-class-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/cg-marketing/mangle-css-class-webpack-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cg-marketing/mangle-css-class-webpack-plugin.git"
+  },
   "keywords": [
     "Webpack",
     "css",
     "minify",
     "mangle"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  }
 }
